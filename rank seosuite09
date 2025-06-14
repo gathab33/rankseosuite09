@@ -1,0 +1,720 @@
+‎<script async="async" data-cfasync="false" src="//pl26898949.profitableratecpm.com/6a488db15863060d58a237a17839647b/invoke.js"></script>
+‎<div id="container-6a488db15863060d58a237a17839647b"></div>
+‎<!DOCTYPE html>
+‎<html lang="en-GB"> <!-- Changed to en-GB for British English -->
+‎<head>
+‎    <meta charset="UTF-8">
+‎    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎    <title>RankForge – The Ultimate Free SEO Suite</title>
+‎    <meta name="description" content="RankForge offers a first-rate free SEO suite for bloggers and marketers. Optimise content, generate meta tags, analyse keywords, and more with our brilliant SEO tools.">
+‎    <meta name="keywords" content="free SEO suite, meta tag generator, blogging tools, keyword analyser, content optimisation, SEO tools, RankForge">
+‎    
+‎    <link rel="preconnect" href="https://fonts.googleapis.com">
+‎    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+‎    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+‎
+‎    <style>
+‎        /* CSS Variables */
+‎        :root {
+‎            --font-primary: 'Inter', sans-serif;
+‎            --font-brand: 'Poppins', sans-serif;
+‎
+‎            /* Light Theme (default) */
+‎            --main-bg: #ffffff;
+‎            --card-bg: #f2f2f2;
+‎            --text-color: #000000;
+‎            --secondary-text-color: #333333;
+‎            --border-color: #e0e0e0;
+‎            --glow-color: rgba(0, 123, 255, 0.5); /* Soft blue shadow */
+‎            --cta-button-bg: #007bff;
+‎            --cta-button-text: #ffffff;
+‎            --cta-button-hover-bg: #0056b3;
+‎            --header-bg: rgba(255, 255, 255, 0.85);
+‎            --header-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+‎            --hero-gradient-1: #e0e7ff;
+‎            --hero-gradient-2: #c0d0ff;
+‎            --hero-gradient-3: #a0b8ff;
+‎            --hero-gradient-4: #c0d0ff;
+‎            --icon-stroke-color: #007bff;
+‎            --icon-text-color: #007bff;
+‎            --tool-title-glow: 0 0 8px rgba(0, 123, 255, 0.3);
+‎            --input-bg: #ffffff;
+‎            --input-border: #cccccc;
+‎            --output-bg: #e9ecef;
+‎        }
+‎
+‎        body.dark-theme {
+‎            --main-bg: #0d0f14;
+‎            --card-bg: #12151a;
+‎            --text-color: #ffffff;
+‎            --secondary-text-color: #e0e0e0;
+‎            --border-color: #1c222d; /* Card border */
+‎            --glow-color: #007bff; /* Glow border color for dark theme */
+‎            --cta-button-bg: #00aaff;
+‎            --cta-button-text: #0d0f14;
+‎            --cta-button-hover-bg: #0088cc;
+‎            --header-bg: rgba(13, 15, 20, 0.85);
+‎            --header-shadow: 0 2px 10px rgba(0, 123, 255, 0.2);
+‎            --hero-gradient-1: #0d0f14;
+‎            --hero-gradient-2: #1a1d24;
+‎            --hero-gradient-3: #003366;
+‎            --hero-gradient-4: #1a1d24;
+‎            --icon-stroke-color: #00aaff;
+‎            --icon-text-color: #ffffff;
+‎            --tool-title-glow: 0 0 10px #007bff, 0 0 5px #00aaff;
+‎            --input-bg: #1c222d;
+‎            --input-border: #333c4a;
+‎            --output-bg: #1c222d;
+‎        }
+‎
+‎        /* Global Styles */
+‎        *, *::before, *::after {
+‎            box-sizing: border-box;
+‎            margin: 0;
+‎            padding: 0;
+‎        }
+‎
+‎        html {
+‎            scroll-behavior: smooth;
+‎        }
+‎
+‎        body {
+‎            font-family: var(--font-primary);
+‎            background-color: var(--main-bg);
+‎            color: var(--text-color);
+‎            line-height: 1.6;
+‎            transition: background-color 0.3s ease, color 0.3s ease;
+‎            font-size: 16px;
+‎        }
+‎
+‎        h1, h2, h3, h4, h5, h6 {
+‎            font-weight: 700;
+‎            margin-bottom: 0.5em;
+‎            color: var(--text-color);
+‎        }
+‎        
+‎        .brand-title-font {
+‎            font-family: var(--font-brand);
+‎            font-weight: 700;
+‎        }
+‎
+‎        p {
+‎            margin-bottom: 1em;
+‎            color: var(--secondary-text-color);
+‎        }
+‎
+‎        a {
+‎            color: var(--cta-button-bg);
+‎            text-decoration: none;
+‎            transition: color 0.3s ease;
+‎        }
+‎
+‎        a:hover {
+‎            color: var(--cta-button-hover-bg);
+‎        }
+‎
+‎        .container {
+‎            width: 90%;
+‎            max-width: 1200px;
+‎            margin: 0 auto;
+‎            padding: 20px 0;
+‎        }
+‎
+‎        /* Header */
+‎        .header {
+‎            background-color: var(--header-bg);
+‎            backdrop-filter: blur(10px);
+‎            -webkit-backdrop-filter: blur(10px);
+‎            padding: 15px 0;
+‎            position: sticky;
+‎            top: 0;
+‎            z-index: 1000;
+‎            box-shadow: var(--header-shadow);
+‎            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+‎        }
+‎
+‎        .header .container {
+‎            display: flex;
+‎            justify-content: space-between;
+‎            align-items: center;
+‎            padding: 0 20px; /* Ensure padding for container content */
+‎        }
+‎        
+‎        .header-content {
+‎            display: flex;
+‎            justify-content: space-between;
+‎            align-items: center;
+‎            width: 100%;
+‎        }
+‎
+‎        .brand-title {
+‎            font-size: 1.8em;
+‎            color: var(--text-color);
+‎        }
+‎        body.dark-theme .brand-title {
+‎             text-shadow: 0 0 5px var(--glow-color);
+‎        }
+‎
+‎
+‎        .nav-links {
+‎            list-style: none;
+‎            display: flex;
+‎            align-items: center;
+‎        }
+‎
+‎        .nav-links li {
+‎            margin-left: 25px;
+‎        }
+‎
+‎        .nav-links a {
+‎            color: var(--text-color);
+‎            font-weight: 500;
+‎            position: relative;
+‎            padding-bottom: 5px;
+‎        }
+‎
+‎        .nav-links a::after {
+‎            content: '';
+‎            position: absolute;
+‎            bottom: 0;
+‎            left: 50%;
+‎            transform: translateX(-50%);
+‎            width: 0;
+‎            height: 2px;
+‎            background-color: var(--cta-button-bg);
+‎            transition: width 0.3s ease-in-out;
+‎            box-shadow: 0 0 5px var(--cta-button-bg);
+‎        }
+‎
+‎        .nav-links a:hover::after {
+‎            width: 100%;
+‎        }
+‎
+‎        .theme-toggle {
+‎            background: none;
+‎            border: none;
+‎            color: var(--text-color);
+‎            font-size: 1.5em;
+‎            cursor: pointer;
+‎            margin-left: 25px;
+‎            transition: transform 0.3s ease;
+‎        }
+‎        .theme-toggle:hover {
+‎            transform: scale(1.1);
+‎        }
+‎
+‎        .hamburger {
+‎            display: none;
+‎            font-size: 2em;
+‎            background: none;
+‎            border: none;
+‎            color: var(--text-color);
+‎            cursor: pointer;
+‎        }
+‎
+‎        /* Hero Section */
+‎        .hero {
+‎            min-height: 90vh;
+‎            display: flex;
+‎            flex-direction: column;
+‎            align-items: center;
+‎            justify-content: center;
+‎            text-align: center;
+‎            padding: 40px 20px;
+‎            background: linear-gradient(-45deg, var(--hero-gradient-1), var(--hero-gradient-2), var(--hero-gradient-3), var(--hero-gradient-4));
+‎            background-size: 400% 400%;
+‎            animation: gradientBG 15s ease infinite;
+‎            position: relative;
+‎            overflow: hidden;
+‎        }
+‎
+‎        @keyframes gradientBG {
+‎            0% { background-position: 0% 50%; }
+‎            50% { background-position: 100% 50%; }
+‎            100% { background-position: 0% 50%; }
+‎        }
+‎
+‎        .hero-icon-container {
+‎            margin-bottom: 20px;
+‎            animation: float 3s ease-in-out infinite;
+‎        }
+‎
+‎        @keyframes float {
+‎            0%, 100% { transform: translateY(0); }
+‎            50% { transform: translateY(-10px); }
+‎        }
+‎        
+‎        .hero-icon {
+‎            width: 100px;
+‎            height: 100px;
+‎        }
+‎        .hero-icon circle, .hero-icon path {
+‎            stroke: var(--icon-stroke-color);
+‎            transition: stroke 0.3s ease;
+‎        }
+‎        .hero-icon text {
+‎            fill: var(--icon-text-color);
+‎            transition: fill 0.3s ease;
+‎        }
+‎        body.dark-theme .hero-icon circle, body.dark-theme .hero-icon path {
+‎             filter: url(#svg-glow-effect-dark);
+‎        }
+‎        body.light-theme .hero-icon circle, body.light-theme .hero-icon path {
+‎             filter: url(#svg-glow-effect-light);
+‎        }
+‎
+‎
+‎        .hero h1 {
+‎            font-size: 2.5em;
+‎            margin-bottom: 0.5em;
+‎            font-weight: 900;
+‎            max-width: 800px;
+‎        }
+‎        body.dark-theme .hero h1 {
+‎             text-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+‎        }
+‎
+‎
+‎        .hero p.subheading {
+‎            font-size: 1.2em;
+‎            margin-bottom: 1.5em;
+‎            max-width: 700px;
+‎            color: var(--secondary-text-color);
+‎        }
+‎
+‎        .cta-button {
+‎            background-color: var(--cta-button-bg);
+‎            color: var(--cta-button-text);
+‎            padding: 12px 28px;
+‎            border: none;
+‎            border-radius: 25px;
+‎            font-size: 1.1em;
+‎            font-weight: 700;
+‎            cursor: pointer;
+‎            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+‎            text-decoration: none;
+‎        }
+‎
+‎        .hero .cta-button {
+‎            box-shadow: 0 0 15px var(--cta-button-bg), 0 0 25px var(--cta-button-bg);
+‎        }
+‎        body.light-theme .hero .cta-button {
+‎             box-shadow: 0 5px 15px var(--glow-color);
+‎        }
+‎
+‎
+‎        .cta-button:hover {
+‎            background-color: var(--cta-button-hover-bg);
+‎            transform: translateY(-2px);
+‎        }
+‎        body.dark-theme .cta-button:hover {
+‎            box-shadow: 0 0 20px var(--cta-button-bg), 0 0 30px var(--cta-button-bg), 0 0 40px var(--cta-button-bg);
+‎        }
+‎         body.light-theme .cta-button:hover {
+‎             box-shadow: 0 8px 20px var(--glow-color);
+‎        }
+‎
+‎        /* Tools Section */
+‎        #tools-section {
+‎            padding: 50px 0;
+‎        }
+‎
+‎        .section-title {
+‎            text-align: center;
+‎            font-size: 2.2em;
+‎            margin-bottom: 40px;
+‎            font-weight: 900;
+‎        }
+‎         body.dark-theme .section-title {
+‎             text-shadow: 0 0 10px var(--glow-color);
+‎         }
+‎
+‎        .tools-grid {
+‎            display: grid;
+‎            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+‎            gap: 25px;
+‎        }
+‎
+‎        .tool-card {
+‎            background-color: var(--card-bg);
+‎            border: 1px solid var(--border-color);
+‎            border-radius: 12px;
+‎            padding: 25px;
+‎            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+‎            display: flex;
+‎            flex-direction: column;
+‎        }
+‎
+‎        body.dark-theme .tool-card {
+‎            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+‎        }
+‎         body.light-theme .tool-card {
+‎            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+‎        }
+‎
+‎        .tool-card:hover {
+‎            transform: translateY(-5px);
+‎        }
+‎        body.dark-theme .tool-card:hover {
+‎            border-color: var(--glow-color);
+‎            box-shadow: 0 0 15px var(--glow-color), 0 8px 25px rgba(0,0,0,0.3);
+‎        }
+‎        body.light-theme .tool-card:hover {
+‎            border-color: var(--cta-button-bg);
+‎            box-shadow: 0 8px 25px var(--glow-color);
+‎        }
+‎
+‎
+‎        .tool-title {
+‎            font-size: 1.5em;
+‎            font-weight: 700;
+‎            margin-bottom: 15px;
+‎            color: var(--text-color);
+‎            text-shadow: var(--tool-title-glow);
+‎        }
+‎
+‎        .tool-card input[type="text"],
+‎        .tool-card input[type="number"],
+‎        .tool-card input[type="date"],
+‎        .tool-card textarea,
+‎        .tool-card select {
+‎            width: 100%;
+‎            padding: 10px;
+‎            margin-bottom: 15px;
+‎            border-radius: 6px;
+‎            border: 1px solid var(--input-border);
+‎            background-color: var(--input-bg);
+‎            color: var(--text-color);
+‎            font-family: var(--font-primary);
+‎            font-size: 0.95em;
+‎            transition: border-color 0.3s ease, background-color 0.3s ease;
+‎        }
+‎         .tool-card input[type="color"] {
+‎            width: 100%;
+‎            height: 40px;
+‎            margin-bottom: 15px;
+‎            border-radius: 6px;
+‎            border: 1px solid var(--input-border);
+‎            background-color: var(--input-bg);
+‎            padding: 2px;
+‎        }
+‎
+‎        .tool-card input:focus,
+‎        .tool-card textarea:focus,
+‎        .tool-card select:focus {
+‎            outline: none;
+‎            border-color: var(--cta-button-bg);
+‎            box-shadow: 0 0 5px var(--glow-color);
+‎        }
+‎
+‎        .tool-card textarea {
+‎            min-height: 100px;
+‎            resize: vertical;
+‎        }
+‎        
+‎        .tool-action-button {
+‎            padding: 10px 20px;
+‎            font-size: 0.95em;
+‎            margin-bottom: 15px;
+‎            align-self: flex-start;
+‎        }
+‎
+‎        .tool-output-container {
+‎            margin-top: 10px;
+‎            margin-bottom: 15px;
+‎            border: 1px dashed var(--input-border);
+‎            padding: 15px;
+‎            border-radius: 6px;
+‎            background-color: var(--output-bg);
+‎            flex-grow: 1; /* Allows output area to take available space if needed */
+‎        }
+‎        .tool-output-container h4 {
+‎            font-size: 1em;
+‎            margin-bottom: 8px;
+‎            color: var(--secondary-text-color);
+‎        }
+‎        .tool-output-container pre, .tool-output-container div.output-content {
+‎            white-space: pre-wrap;
+‎            word-wrap: break-word;
+‎            font-size: 0.9em;
+‎            background-color: transparent;
+‎            color: var(--text-color);
+‎            max-height: 200px;
+‎            overflow-y: auto;
+‎        }
+‎
+‎        .copy-button {
+‎            background-color: #6c757d;
+‎            color: white;
+‎            padding: 6px 12px;
+‎            border: none;
+‎            border-radius: 4px;
+‎            font-size: 0.85em;
+‎            cursor: pointer;
+‎            margin-top: 10px;
+‎            transition: background-color 0.2s ease;
+‎        }
+‎        .copy-button:hover {
+‎            background-color: #545b62;
+‎        }
+‎
+‎        .tool-description {
+‎            font-size: 0.9em;
+‎            color: var(--secondary-text-color);
+‎            margin-top: auto; /* Pushes description to bottom if card height varies */
+‎            padding-top: 10px; /* Add some space if other elements vary in height */
+‎        }
+‎
+‎        /* Footer */
+‎        .footer {
+‎            text-align: center;
+‎            padding: 30px 20px;
+‎            background-color: var(--card-bg); /* Use card-bg for footer for consistency */
+‎            border-top: 1px solid var(--border-color);
+‎            margin-top: 50px;
+‎        }
+‎        .footer p {
+‎            margin: 0;
+‎            font-size: 0.9em;
+‎        }
+‎
+‎
+‎        /* Responsive Design */
+‎        @media (max-width: 1024px) {
+‎            .tools-grid {
+‎                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+‎            }
+‎             .hero h1 {
+‎                font-size: 2.2em;
+‎            }
+‎            .hero p.subheading {
+‎                font-size: 1.1em;
+‎            }
+‎        }
+‎        
+‎        @media (max-width: 768px) {
+‎            .nav-links {
+‎                display: none;
+‎                flex-direction: column;
+‎                position: absolute;
+‎                top: 65px; /* Adjust based on header height */
+‎                left: 0;
+‎                width: 100%;
+‎                background-color: var(--header-bg); /* Same as header */
+‎                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+‎                padding: 10px 0;
+‎            }
+‎            .nav-links.active {
+‎                display: flex;
+‎            }
+‎            .nav-links li {
+‎                margin: 10px 0;
+‎                text-align: center;
+‎            }
+‎            .nav-links a::after { /* Adjust underline for mobile nav */
+‎                left: 50%;
+‎                transform: translateX(-50%);
+‎            }
+‎            .hamburger {
+‎                display: block;
+‎            }
+‎            .theme-toggle {
+‎                margin-left: 15px; /* Less margin on mobile */
+‎            }
+‎
+‎            .hero {
+‎                min-height: 70vh;
+‎            }
+‎            .hero h1 {
+‎                font-size: 1.8em;
+‎            }
+‎            .hero p.subheading {
+‎                font-size: 1em;
+‎            }
+‎            .brand-title {
+‎                font-size: 1.5em;
+‎            }
+‎            .tools-grid {
+‎                grid-template-columns: 1fr; /* Single column for mobile */
+‎            }
+‎        }
+‎
+‎    </style>
+‎</head>
+‎<body>
+‎
+‎    <header class="header">
+‎        <div class="container">
+‎            <div class="header-content">
+‎                <a href="#" class="brand-title brand-title-font">RankForge SEO Suite</a>
+‎                <nav>
+‎                    <ul class="nav-links" id="navLinks">
+‎                        <li><a href="#">Home</a></li>
+‎                        <li><a href="#tools-section">Tools</a></li>
+‎                        <li><a href="#about-section">About</a></li>
+‎                        <li><a href="#contact-section">Contact</a></li>
+‎                    </ul>
+‎                </nav>
+‎                <div>
+‎                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+‎                    <button class="hamburger" id="hamburgerMenu" aria-label="Toggle menu">☰</button>
+‎                </div>
+‎            </div>
+‎        </div>
+‎    </header>
+‎
+‎    <main>
+‎        <section class="hero" id="hero-section">
+‎             <div class="hero-icon-container">
+‎                <svg class="hero-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+‎                    <defs>
+‎                        <filter id="svg-glow-effect-dark">
+‎                            <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+‎                            <feMerge>
+‎                                <feMergeNode in="coloredBlur"/>
+‎                                <feMergeNode in="SourceGraphic"/>
+‎                            </feMerge>
+‎                        </filter>
+‎                         <filter id="svg-glow-effect-light" x="-50%" y="-50%" width="200%" height="200%">
+‎                            <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="rgba(0, 123, 255, 0.7)"/>
+‎                        </filter>
+‎                    </defs>
+‎                    <circle cx="50" cy="50" r="35" fill="none" stroke-width="6"/>
+‎                    <path d="M50 15 V5 M50 85 V95 M15 50 H5 M85 50 H95 M28 28 L18 18 M72 28 L82 18 M28 72 L18 82 M72 72 L82 82" stroke-width="4" stroke-linecap="round"/>
+‎                    <text x="50" y="58" font-family="Inter, sans-serif" font-size="24" text-anchor="middle" font-weight="bold">RF</text> <!-- Changed PM to RF -->
+‎                </svg>
+‎            </div>
+‎            <h1 class="main-heading">First-Rate Free SEO Tools for Bloggers & Marketers</h1>
+‎            <p class="subheading">Optimise your blog posts, generate meta tags, and analyse keywords — all with RankForge’s advanced SEO suite. Elevate your content strategy with our free tools, including a powerful meta tag generator and keyword analyser, perfect for blogging success.</p>
+‎            <a href="#tools-section" class="cta-button">Explore the Suite →</a>
+‎        </section>
+‎
+‎        <section id="tools-section" class="container">
+‎            <h2 class="section-title">The RankForge SEO & Blogging Suite</h2>
+‎            <div class="tools-grid">
+‎                <!-- Tool Cards will be injected here by JavaScript or listed statically -->
+‎                <!-- Card 1: Meta Tag Generator -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">Meta Tag Generator</h3>
+‎                    <input type="text" id="metaTitle" placeholder="Enter Page Title">
+‎                    <textarea id="metaDescription" placeholder="Enter Page Description (max 160 chars)"></textarea>
+‎                    <input type="text" id="metaKeywords" placeholder="Enter Keywords (comma-separated)">
+‎                    <button class="cta-button tool-action-button" onclick="generateMetaTags()">Generate</button>
+‎                    <div class="tool-output-container">
+‎                        <h4>Generated Meta Tags:</h4>
+‎                        <pre id="metaOutput"></pre>
+‎                        <button class="copy-button" onclick="copyOutput('metaOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Create optimal meta title and description tags for your web pages. This free meta tag generator helps improve your search engine visibility and click-through rates by crafting compelling snippets for your content.</p>
+‎                </div>
+‎
+‎                <!-- Card 2: Keyword Density Checker -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">Keyword Density Analyser</h3> <!-- Changed from Checker -->
+‎                    <textarea id="keywordText" placeholder="Paste your text here..."></textarea>
+‎                    <input type="text" id="keywordPhrase" placeholder="Enter keyword or phrase">
+‎                    <button class="cta-button tool-action-button" onclick="checkKeywordDensity()">Analyse Density</button> <!-- Changed from Check -->
+‎                    <div class="tool-output-container">
+‎                        <h4>Keyword Density Analysis:</h4>
+‎                        <div id="keywordDensityOutput" class="output-content"></div>
+‎                        <button class="copy-button" onclick="copyOutput('keywordDensityOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Analyse the keyword density of your text to ensure optimal keyword usage without overstuffing. This tool helps refine your content optimisation strategy, crucial for effective blogging and SEO.</p>
+‎                </div>
+‎
+‎                <!-- Card 3: Robots.txt Generator -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">Robots.txt Generator</h3>
+‎                    <label for="robotsDefaultAgent">Default User-agent:</label>
+‎                    <select id="robotsDefaultAgent" style="margin-bottom: 10px;">
+‎                        <option value="*">All Robots (*)</option>
+‎                        <option value="Googlebot">Googlebot</option>
+‎                        <option value="Bingbot">Bingbot</option>
+‎                    </select>
+‎                    <textarea id="robotsDisallow" placeholder="Disallow paths (one per line, e.g., /admin/)"></textarea>
+‎                    <textarea id="robotsAllow" placeholder="Allow paths (one per line, e.g., /public/)"></textarea>
+‎                    <input type="text" id="robotsSitemap" placeholder="Sitemap URL (optional)">
+‎                    <button class="cta-button tool-action-button" onclick="generateRobotsTxt()">Generate Robots.txt</button>
+‎                    <div class="tool-output-container">
+‎                        <h4>Generated Robots.txt:</h4>
+‎                        <pre id="robotsOutput"></pre>
+‎                        <button class="copy-button" onclick="copyOutput('robotsOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Easily create a robots.txt file to guide search engine crawlers on how to index your website. Specify disallow or allow rules for different user-agents and include your sitemap location for better crawling.</p>
+‎                </div>
+‎
+‎                <!-- Card 4: Sitemap Generator (Basic) -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">XML Sitemap Generator</h3>
+‎                    <textarea id="sitemapUrls" placeholder="Enter URLs (one per line)"></textarea>
+‎                    <button class="cta-button tool-action-button" onclick="generateSitemap()">Generate Sitemap</button>
+‎                    <div class="tool-output-container">
+‎                        <h4>Generated XML Sitemap:</h4>
+‎                        <pre id="sitemapOutput"></pre>
+‎                        <button class="copy-button" onclick="copyOutput('sitemapOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Generate a basic XML sitemap from a list of your website URLs. This tool helps search engines discover and index your content more efficiently. Essential for any website serious about SEO.</p>
+‎                </div>
+‎
+‎                <!-- Card 5: Title & Description Analyzer -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">Title & Description Analyser</h3>
+‎                    <input type="text" id="analyzeTitle" placeholder="Enter Page Title">
+‎                    <textarea id="analyzeDescription" placeholder="Enter Page Description"></textarea>
+‎                    <button class="cta-button tool-action-button" onclick="analyzeTitleDescription()">Analyse</button>
+‎                    <div class="tool-output-container">
+‎                        <h4>Analysis Results:</h4>
+‎                        <div id="titleDescAnalysisOutput" class="output-content"></div>
+‎                        <button class="copy-button" onclick="copyOutput('titleDescAnalysisOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Evaluate your page titles and meta descriptions for length and keyword effectiveness. This analyser provides quick feedback to help you create SEO-friendly snippets for better search rankings.</p>
+‎                </div>
+‎
+‎                <!-- Card 6: URL Encoder/Decoder -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">URL Encoder/Decoder</h3>
+‎                    <input type="text" id="urlEncodeDecodeInput" placeholder="Enter URL or string">
+‎                    <div style="margin-bottom:10px;">
+‎                        <input type="radio" id="urlEncodeOption" name="urlAction" value="encode" checked> <label for="urlEncodeOption">Encode</label>
+‎                        <input type="radio" id="urlDecodeOption" name="urlAction" value="decode"> <label for="urlDecodeOption">Decode</label>
+‎                    </div>
+‎                    <button class="cta-button tool-action-button" onclick="processUrlEncoding()">Process</button>
+‎                    <div class="tool-output-container">
+‎                        <h4>Processed URL:</h4>
+‎                        <pre id="urlEncodeDecodeOutput"></pre>
+‎                        <button class="copy-button" onclick="copyOutput('urlEncodeDecodeOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Quickly encode or decode URLs and strings. Useful for handling special characters in URLs, ensuring they are correctly interpreted by browsers and servers. A handy utility for web developers and SEOs.</p>
+‎                </div>
+‎
+‎                <!-- Card 7: Canonical Tag Generator -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">Canonical Tag Generator</h3>
+‎                    <input type="text" id="canonicalUrl" placeholder="Enter preferred URL">
+‎                    <button class="cta-button tool-action-button" onclick="generateCanonicalTag()">Generate Tag</button>
+‎                    <div class="tool-output-container">
+‎                        <h4>Generated Canonical Tag:</h4>
+‎                        <pre id="canonicalOutput"></pre>
+‎                        <button class="copy-button" onclick="copyOutput('canonicalOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Create a canonical link element to specify the preferred version of a web page. This helps prevent duplicate content issues and consolidates link equity, boosting your site's SEO performance.</p>
+‎                </div>
+‎
+‎                <!-- Card 8: Slug Generator -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">Slug Generator</h3>
+‎                    <input type="text" id="slugInput" placeholder="Enter a string (e.g., blog title)">
+‎                    <button class="cta-button tool-action-button" onclick="generateSlug()">Generate Slug</button>
+‎                    <div class="tool-output-container">
+‎                        <h4>Generated Slug:</h4>
+‎                        <pre id="slugOutput"></pre>
+‎                        <button class="copy-button" onclick="copyOutput('slugOutput', this)">Copy</button>
+‎                    </div>
+‎                    <p class="tool-description">Convert any string into a URL-friendly slug. This tool creates clean, lowercase, hyphenated slugs perfect for blog posts, page URLs, and overall better content optimisation and readability.</p>
+‎                </div>
+‎                
+‎                <!-- Card 9: Redirect URL Generator (Meta Refresh) -->
+‎                <div class="tool-card">
+‎                    <h3 class="tool-title">Meta Refresh Redirect Generator</h3>
+‎                    <input type="text" id="redirectNewUrl" placeholder="Enter New URL">
+‎                    <input type="number" id="red
